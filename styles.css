@@ -1,14 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root{
   --color-primario: #1971c2;
   --color-fondo: #f0f0f0;
   --espaciado:20px;
+  --bg-url: url(./assets/bg-desktop.jpg);
 }
 
 body{
-  background-color: var(--color-fondo);
+  background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 h1{
   color: var(--color-primario);
   margin-bottom: var(--espaciado);
+}
+
+p{
+  color: var(--color-fondo);
 }
