@@ -5,10 +5,13 @@
 }
 
 :root{
-  --color-primario: #1971c2;
-  --color-fondo: #f0f0f0;
-  --espaciado:20px;
-  --bg-url: url(./assets/bg-desktop.jpg);
+  --text-color: #fff;
+  --bg-url: url(./assets/bg-mobile.jpg);
+  --stroke-color: rgba(255, 255, 255, 0.50);
+  --surface-color: rgba(255, 255, 255, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.2);
+  --highlight-color: rgba(255, 255, 255, 0.20);
+  --switch-bg-url: url(./assets/MoonStars.svg);
 }
 
 body{
@@ -16,11 +19,15 @@ body{
   height: 100vh;
 }
 
-h1{
-  color: var(--color-primario);
-  margin-bottom: var(--espaciado);
+.container{
+  width: 100%;
+  max-width: 588px;
+  padding: 0 24px;
+  background: red;
+  margin: 56px auto 0;
 }
 
-p{
-  color: var(--color-fondo);
+.profile{
+  text-align: center;
+  padding: 24px;
 }
